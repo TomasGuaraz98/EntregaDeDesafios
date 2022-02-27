@@ -5,6 +5,7 @@
 body{
     background-image: linear-gradient(to left , #0f0c29,#302b63 ,#24243e);
     font-family: 'PT Serif', serif;
+    
 }
 header{
     display: inline-block;
@@ -26,6 +27,7 @@ ul{
     flex-flow: nowrap;
     list-style-type: none; 
     padding-top: 20px;
+    
      
 }
 a{
@@ -54,6 +56,8 @@ main{
     font-size: 60px;
     background-size: cover;
     padding-top: 5px;
+    height: 1200px;
+    
    
     
 }
@@ -64,6 +68,7 @@ main{
 .ParrafoQ{
     color: white;
     font-size: 60px;
+    margin-top: 5%;
         
 }
 
@@ -89,6 +94,7 @@ footer{
     align-content: space-around ;
     padding-top: 5% ;
     margin-left: 2%;
+    margin-top: 10%;
 
     
 }
@@ -109,6 +115,7 @@ img{
     list-style-type:disc;
     padding-left: 100px;
     font-family: 'Bitter', serif;
+    margin-top: 5%;
 
 }
 
@@ -118,6 +125,7 @@ h4{
     text-align: center;
     text-decoration: underline;
     font-style: oblique;
+    margin-top: 5%;
 }
 h5{
     
@@ -182,6 +190,8 @@ legend{
     
     
 }
+
+
 @media only screen and (max-width:600px){
     #TallerEntrada{
         image-rendering: auto;

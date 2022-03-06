@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+  font-family: 'PT Serif', serif; }
+
+header {
+  display: inline-block; }
+
+nav {
+  display: inline-block;
+  float: right; }
+
+ul {
+  display: flex;
+  flex-flow: nowrap;
+  list-style-type: none;
+  padding-top: 20px; }
+  ul a {
+    color: white;
+    font-family: 'Bitter', serif;
+    text-decoration: none;
+    padding: 10px;
+    padding-right: 22px; }
+
+a:hover {
+  border-radius: 15px;
+  background-color: #1f1e1e;
+  padding: 10px; }
+
+#TallerEntrada {
+  image-rendering: auto;
+  width: 100%;
+  height: 100%; }
+
+main {
+  color: white;
+  font-size: 60px;
+  background-size: cover;
+  padding-top: 5px;
+  height: 1200px;
+  margin-top: 5%; }
+
+#ParrafoIndex {
+  color: white;
+  font-size: 60px;
+  margin-top: 5%; }
+
+.ParrafoQ {
+  font-family: 'Bitter', serif;
+  font-size: larger;
+  text-align: center;
+  text-decoration: underline;
+  font-style: oblique;
+  margin-top: 5%; }
+
+#LOGO {
+  margin-top: 10PX;
+  margin-left: 10px;
+  width: 180px; }
+
+footer {
+  display: flex;
+  margin-top: 10%;
+  justify-content: center; }
+
+#GRILLA {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 400px 400px;
+  grid-template-areas: "a1 a2 a3"
+ "a4 a5 a6";
+  justify-content: space-around;
+  align-content: space-around;
+  padding-top: 5%;
+  margin-left: 2%;
+  margin-top: 10%; }
+
+#GRILLA div {
+  width: 90%;
+  height: 90%;
+  image-rendering: auto; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+#QuienesSomos {
+  list-style-type: disc;
+  padding-left: 100px;
+  font-family: 'Bitter', serif;
+  margin-top: 5%; }
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-size: larger;
+  text-align: center;
+  text-decoration: underline;
+  font-style: oblique;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+#Mapa {
+  margin-top: 10%;
+  margin-left: 30%; }
+
+#Div2 {
+  font-size: larger;
+  list-style-type: disc;
+  margin-top: 10%;
+  font-family: 'Bitter', serif;
+  font-style: oblique; }
+
+fieldset {
+  display: inline-block;
+  background-color: #3b34a1;
+  text-align: center; }
+
+form {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 5%; }
+
+label {
+  font-family: 'Bitter', serif;
+  font-size: xx-large;
+  text-decoration: underline; }
+
+legend {
+  font-family: 'Bitter', serif; }
+
+.Botones {
+  width: auto;
+  background-color: blanchedalmond;
+  padding: 5%;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 18px; }
+
+.Submit {
+  background-color: blue;
+  width: 80%;
+  border: none;
+  padding: 12px;
+  margin: 16px 0;
+  color: white;
+  font-size: medium; }
+
+.Marca {
+  background-color: dimgrey;
+  width: 50%;
+  border: none;
+  padding: 16px;
+  margin: 16px 0;
+  color: black;
+  text-align: center; }
+
+@media only screen and (max-width: 600px) {
+  #TallerEntrada {
+    image-rendering: auto;
+    width: 100%;
+    height: 100%; }
+  #LOGO {
+    margin-top: 10PX;
+    margin-left: 10px;
+    width: 70px; }
+  a {
+    font-size: smaller;
+    color: white;
+    font-family: 'Bitter', serif;
+    text-decoration: none;
+    padding: 4px;
+    padding-right: 7px; }
+  a:hover {
+    border-radius: 7px;
+    background-color: #1f1e1e;
+    padding: 3px; }
+  #ParrafoIndex {
+    color: white;
+    font-size: 60px;
+    font-size: medium; }
+  #QuienesSomos {
+    list-style-type: disc;
+    padding-left: 100px;
+    font-family: 'Bitter', serif;
+    font-size: x-large;
+    padding-bottom: 5%;
+    padding-top: 5%; }
+  .ParrafoQ {
+    color: white;
+    font-size: x-large;
+    font-style: oblique; }
+  .ParrafoU {
+    color: white;
+    font-size: x-large;
+    font-style: oblique; }
+  h4 {
+    font-family: 'Bitter', serif;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    font-style: oblique;
+    margin-top: 5%; }
+  #GRILLA {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "a1 a2 a3"
+ "a4 a5 a6";
+    justify-content: space-around;
+    align-content: space-around;
+    padding-top: 5%;
+    margin-left: 2%; }
+  h5 {
+    font-style: oblique;
+    padding-left: 2%;
+    padding-top: 3%;
+    font-size: small; }
+  #Mapa {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 250px;
+    height: 250px; }
+  nav {
+    margin-bottom: 5%; }
+  form {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 5%; }
+  label {
+    font-family: 'Bitter', serif;
+    font-size: xx-large;
+    text-decoration: underline; }
+  legend {
+    font-family: 'Bitter', serif; }
+  .Botones {
+    width: auto;
+    background-color: blanchedalmond;
+    padding: 5%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 18px; }
+  .Submit {
+    background-color: blue;
+    width: 80%;
+    border: none;
+    padding: 2px;
+    margin: 6px 0;
+    color: white;
+    font-size: medium; }
+  .Marca {
+    background-color: dimgrey;
+    width: 15%;
+    border: none;
+    padding: 6px;
+    margin: 6px 0;
+    color: black;
+    text-align: center; } }

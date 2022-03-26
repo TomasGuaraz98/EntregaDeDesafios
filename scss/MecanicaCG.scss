@@ -174,20 +174,26 @@ fieldset{
     display: inline-block;
     background-color: rgb(59, 52, 161);
     text-align: center;
+    
+
 }
+
+
 form{
     width: 400px;
     margin: auto;
     margin-bottom: 5%;
+    margin-top: 5%
     
 }
 label{
     @extend .Tipografia;
-    font-size:xx-large;  
+    font-size:x-large;  
     
 }
 legend{
     font-family: 'Bitter', serif;
+    @extend .Tipografia;
 }
 .Botones{
     width: auto;
@@ -197,26 +203,9 @@ legend{
     margin-bottom: 16px;
     font-size: 18px;
 }
-.Submit{
-    background-color: blue;
-    width: 80%;
-    border: none;
-    padding: 12px;
-    margin: 16px 0;
-    color: white;
-    font-size: medium;
-}
-.Marca{
-    background-color:dimgrey;
-    width: 50%;
-    border: none;
-    padding: 16px;
-    margin: 16px 0;
-    color: black;
-    text-align: center;
+
+
     
-    
-}
 
 
 
